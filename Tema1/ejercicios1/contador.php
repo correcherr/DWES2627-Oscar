@@ -24,5 +24,24 @@
         $cont--;
     }
     ?>
+    <h1>Séptimo ejercicio</h1>
+
+    <p>Este contador va del 1 al 100:</p>
+    <?php
+    for ($i = 0; $i <= 100; $i++) {
+        echo "$i, ";
+    }
+    ?>
+
+    <br>
+    <p>Este otro va del 10 al 0:</p>
+    <?php
+
+    $cont = 10;
+    while (0 <= $cont) {
+        echo "$cont-";
+        $cont--;
+    }
+    ?>
 
 </html>
