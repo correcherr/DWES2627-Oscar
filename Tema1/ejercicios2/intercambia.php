@@ -9,18 +9,15 @@
 </head>
 
 <body>
+    <h1>Ejercicio funcion intercambio</h1>
     <?php
-    function cuenta($a, $b)
+    function intercambia(&$a, &$b)
     {
-        for ($i = $a; $i <= $b; $i++) {
-            echo $i, ", ";
-        }
+        $i = $a;
+        $a = $b;
+        $b = $i;
     }
     ?>
-    <h1>Ejercicio funcion contador</h1>
-    <?php
-    cuenta(10, 20)
-        ?>
 </body>
 
 </html>
