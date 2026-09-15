@@ -8,15 +8,14 @@
 </head>
 
 <body>
-    <h1>Primer ejercicio</h1>
+    <h1>Segundo ejercicio</h1>
     <?php
-    $name = "Óscar López Correcher";
-    $year = 2006;
+    define('PI', 3.1416);
+    $radio = 3.5;
+    $areaCirculo = PI * $radio ** 2;
     ?>
-    <p>Me llamo
-        <?php echo $name; ?>
-        Y nací en el año
-        <?php echo $year; ?>.
+    <p>El área del círculo es
+        <?php echo $areaCirculo; ?>
     </p>
 </body>
 
