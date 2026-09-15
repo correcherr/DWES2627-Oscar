@@ -14,7 +14,9 @@ El repositorio está organizado por temas y actividades:
 DWES2627-Oscar/
 │
 ├── 📁 Tema1/
-│   └── Ejercicios y prácticas del tema 1
+│   └── ejercicios1
+│   └── ejercicios2
+│   └── array
 │
 ├── 📄 README.md
 │
