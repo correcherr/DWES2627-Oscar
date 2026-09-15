@@ -9,15 +9,18 @@
 </head>
 
 <body>
-    <h1>Primer ejercicio</h1>
     <?php
     function cuenta($a, $b)
     {
-        for ($i = $a; $i < $b; $i++) {
-
+        for ($i = $a; $i <= $b; $i++) {
+            echo $i, ", ";
         }
     }
     ?>
+    <h1>Primer ejercicio</h1>
+    <?php
+    cuenta(10, 20)
+        ?>
 </body>
 
 </html>
