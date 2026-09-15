@@ -11,6 +11,12 @@
 <body>
     <h1>Segundo ejercicio</h1>
     <?php
+    $textoFecha = date("H:i:s");
+    echo "<p>La fecha de hoy es: " . $textoFecha . "</p>";
+    $hora = substr($textoFecha, 0, 2);
+    $minutos = substr($textoFecha, 3, 2);
+    $segundos = substr($textoFecha, 6, 2);
+    echo $hora, " - ", $minutos, " - ", $segundos;
 
     ?>
 </body>
