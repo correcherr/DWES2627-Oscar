@@ -9,7 +9,7 @@
 </head>
 
 <body>
-    <h1>Cuarto ejercicio</h1>
+    <h1>Cuarto y Quinto ejercicio</h1>
     <?php
     $nota1 = 8.67;
     $nota2 = 9.21;
