@@ -16,8 +16,11 @@
     $hora = substr($textoFecha, 0, 2);
     $minutos = substr($textoFecha, 3, 2);
     $segundos = substr($textoFecha, 6, 2);
-    echo $hora, " - ", $minutos, " - ", $segundos;
-
+    if ($hora > 24 && $hora < 0 && $minutos > 60 && $minutos > 0 && $segundos < 60 && $segundos > 0) {
+        echo $hora, " - ", $minutos, " - ", $segundos;
+    } else {
+        echo "HORA INVALIDA";
+    }
     ?>
 </body>
 
